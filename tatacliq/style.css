@@ -1,0 +1,235 @@
+
+
+.nav-item{
+    margin-top: 30px;
+
+}
+
+
+.accordian {
+	width: 805px; height: 320px;
+	overflow: hidden;
+	
+	/*Time for some styling*/
+	margin: 100px auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+	width: 1200px;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 160px;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+	display: block;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+width: 640px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+/* two cards */
+
+.cards-container5 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+ 
+}
+
+.card5 {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card5:hover {
+  transform: scale(1.05);
+}
+
+.card5 img {
+  width: 100%;
+  height: auto;
+}
+
+  /* footer box */
+body{
+  margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container6 {
+      width: 70%;
+      height: 38%;
+      margin: 5% auto; /* Adjust margin as needed */
+      border: 1px solid #ccc;
+      overflow: hidden;
+      border-radius: 30px;
+    }
+
+    .left-side6 {
+      width: 60%; /* Adjust width as needed */
+      float: left;
+      padding: 20px;
+    }
+
+    .right-side6 {
+      width: 40%; /* Adjust width as needed */
+      float: left;
+    }
+
+    .dialogue1{
+      width: 100%; /* Make the image fill its container */
+      height: auto;
+      display: block;
+    }
+    .redclr{
+        color: red;}
+
+        body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      .card8 {
+          width: 100%;
+          max-width: 300px;
+          margin: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease-in-out;
+      }
+
+      .card8:hover {
+          transform: scale(1.05);
+      }
+
+      .card8 img {
+          width: 100%;
+          height: auto;
+      }
+
+      @media (min-width: 768px) {
+          .cards-container8 {
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              
+          }
+         
+      }
+
+      /* tata trust */
+
+      .container3 {
+        width: 80%;
+        max-width: 600px;
+        margin: 50px auto;
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-sizing: border-box;
+       
+      }
+  
+      .logo3 {
+        margin-top: 20px;
+      }
+  
+      .icons3 {
+        margin-top: 20px;
+      }
+  
+      .icons3 i {
+        font-size: 24px;
+        margin: 0 10px;
+        color: #333;
+      }
+  
+      .text-area3 {
+        margin-top: 20px;
+      }
+
+      footer {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      .footer-section {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+  
+      .footer-section div {
+        flex: 1;
+        margin: 0 10px;
+      }
+  
+      /* footer 2 */
+   
+  
+      .paragraph-box2 {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: justify;
+       
+        width: 100%;
+        background-color: #fff;
+      }
+  
+      .paragraph-box2 p {
+        margin: 0;
+        font-size: 13px;
+        color: #333;
+      }

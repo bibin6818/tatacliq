@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="#"><img src="https://th.bing.com/th/id/OIP.6ow2mbt9kdLnVFPd_bB5hAHaEK?rs=1&pid=ImgDetMain" alt="" width="100px" height="70px" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><h3>Home</h3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><h3>Products</h3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><h3>About</h3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><h3>Contact</h3></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <a href="#" class="btn btn-outline-dark">Login</a>
+                <a href="#" class="btn btn-dark ms-2">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/50504080326686.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/50504080392222.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/50504080457758.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/50504080523294.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/50504081145886.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/50504081211422.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<!-- card images -->
+
+<div class="container mt-5">
+    <div class="card-group">
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557263937566.jpg" class="card-img-top" alt="Card Image 1">
+      
+      </div> &nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264003102.jpg" class="card-img-top" alt="Card Image 2">
+      
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264068638.jpg" class="card-img-top" alt="Card Image 3">
+        
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264134174.jpg" class="card-img-top" alt="Card Image 4">
+       
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264199710.jpg" class="card-img-top" alt="Card Image 5">
+     
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264265246.jpg" class="card-img-top" alt="Card Image 6">
+      
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264429086.jpg" class="card-img-top" alt="Card Image 7">
+       
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264527390.jpg" class="card-img-top" alt="Card Image 8">
+     
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264592926.jpg" class="card-img-top" alt="Card Image 9">
+       
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50557264658462.jpg" class="card-img-top" alt="Card Image 10">
+    
+      </div>
+    </div>
+  </div>
+<!-- banking -->
+
+<div class="container mt-5">
+    <div class="card-group">
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/49468750364702.jpg" class="card-img-top" alt="Card Image 1">
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50063519580190.jpg" class="card-img-top" alt="Card Image 2">
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50074650869790.jpg" class="card-img-top" alt="Card Image 3">
+      </div>&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/50040038359070.jpg" class="card-img-top" alt="Card Image 4">
+      </div>&nbsp;&nbsp;&nbsp;
+      <div class="card">
+        <img src="https://assets.tatacliq.com/medias/sys_master/images/49468750495774.jpg" class="card-img-top" alt="Card Image 5">
+      </div>
+    </div>
+  </div>
+<br><br><br><br><br><br>
+<center><h1 style="font-size: 50px;"><b>Deal-icious Offers</b></h1></center>
+
+
+<div class="accordian">
+  <ul>
+  <li>
+    <div class="image_title">
+      <a href="#">KungFu Panda</a>
+    </div> 
+    <a href="#">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739179950110.jpg"/>
+    </a>
+  </li>
+  <li>
+    <div class="image_title">
+      <a href="#">Toy Story 2</a>
+    </div>
+    <a href="#">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180015646.jpg"/>
+    </a>
+  </li>
+  <li>
+    <div class="image_title">
+      <a href="#">Wall-E</a>
+    </div>
+    <a href="#">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180081182.jpg"/>
+    </a>
+  </li>
+  <li>
+    <div class="image_title">
+      <a href="#">Up</a>
+    </div>
+    <a href="#">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180146718.jpg"/>
+    </a>
+  </li>
+  <li>
+    <div class="image_title">
+      <a href="#">Cars 2</a>
+    </div>
+    <a href="#">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180212254.jpg"/>
+    </a>
+  </li>
+</ul>
+</div>
+<br><br><br>
+<center><h1 style="font-size: 50px;"><b>BlockBuster-Offers</b></h1></center>
+<br><br><br><br><br>
+<!-- 
+<div class="cards-container">
+  <div class="cards"> <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180081182.jpg" alt="">
+    
+  </div>
+  <div class="cards">
+ <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180146718.jpg" alt="">
+  </div>
+</div>
+<br><br><br>
+<div class="cards-container"> 
+  <div class="cards"> <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180212254.jpg" alt="">
+    
+  </div>
+  <div class="cards">
+ <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180277790.jpg" alt="">
+  </div>
+</div>
+<br><br><br>
+<div class="cards-container"> 
+  <div class="cards"> <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180343326.jpg" alt="">
+    
+  </div>
+  <div class="cards">
+ <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180408862.jpg" alt="">
+  </div>
+</div>
+<br><br><br>
+<div class="cards-container"> 
+  <div class="cards"> <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180474398.jpg" alt="">
+    
+  </div>
+  <div class="cards">
+ <img src="https://assets.tatacliq.com/medias/sys_master/images/49792086147102.jpg" alt="">
+  </div>
+</div> -->
+<div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739179950110.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180015646.jpg" alt="Image 2">
+  </div>
+</div>
+
+<div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180081182.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180146718.jpg" alt="Image 2">
+  </div>
+</div>
+
+
+<div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180212254.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180277790.jpg" alt="Image 2">
+  </div>
+</div>
+
+
+<div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180343326.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180408862.jpg" alt="Image 2">
+  </div>
+</div>
+
+<div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180474398.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792086147102.jpg" alt="Image 2">
+  </div>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Big Brands,Bigger Discounts</b></h1></center>
+<br><br><br><br><br><br><br><br>
+
+
+
+   
+
+ <!-- <div class="cards-container"> 
+   <div class="cards"> <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180605470.jpg" alt="">
+     
+   </div>
+   <div class="cards">
+  <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180671006.jpg" alt="">
+   </div>
+ </div>
+ <br><br><br>
+ <div class="cards-container"> 
+   <div class="cards"> <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180736542.jpg" alt="">
+     
+   </div>
+   <div class="cards">
+  <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180802078.jpg" alt="">
+   </div>
+ </div>
+ <br><br><br>
+ <div class="cards-container"> 
+   <div class="cards"> <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180867614.jpg" alt="">
+     
+   </div>
+   <div class="cards">
+  <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180933150.jpg" alt="">
+   </div>
+ </div> -->
+
+ <div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180605470.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180671006.jpg" alt="Image 2">
+  </div>
+</div>
+
+
+<div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180736542.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180802078.jpg" alt="Image 2">
+  </div>
+</div>
+
+
+<div class="cards-container5">
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180867614.jpg" alt="Image 1">
+  </div>
+  <div class="card5">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49739180933150.jpg" alt="Image 2">
+  </div>
+</div>
+
+
+
+ <br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Latest Drops</b></h1></center>
+<br><br><br><br><br>
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792070516766.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792070582302.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792070647838.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792070713374.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Westside Watchlist</b></h1></center>
+<br><br><br><br><br>
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49733324931102.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792070909982.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792070975518.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792071172126.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>The Week's Wonders</b></h1></center>
+<br><br><br><br><br>
+
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792071434270.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792071499806.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792071565342.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792071630878.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Trending On Venus</b></h1></center>
+<br><br><br><br><br>
+
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792072220702.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792072286238.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792072351774.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792072417310.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Trending On Mars</b></h1></center>
+<br><br><br><br><br>
+
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792081395742.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792081461278.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792081526814.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792081592350.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Let The Games Begin</b></h1></center>
+<br><br><br><br><br>
+
+ <div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792072876062.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792072941598.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073007134.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073072670.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Offers For Juniors</b></h1></center>
+<br><br><br><br><br>
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073596958.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073662494.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073728030.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073793566.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>It's Save O'Clock </b></h1></center>
+<br><br><br><br><br>
+
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073924638.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792073990174.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792074121246.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792074186782.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Bring Home Happiness </b></h1></center>
+<br><br><br><br><br>
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792074448926.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792074514462.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792074579998.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792074645534.jpg" alt="Image 4">
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>The Beauty Buzz</b></h1></center>
+<br><br><br><br><br>
+
+
+ <div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792074973214.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792075038750.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792075104286.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792075169822.jpg" alt="Image 4">
+  </div>
+</div>
+
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Unbox Gadget Deals</b></h1></center>
+<br><br><br><br><br>
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792080412702.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792080478238.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792084148254.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792080609310.jpg" alt="Image 4">
+  </div>
+</div>
+
+
+<br><br><br><br><br><br><br><br>
+
+<center><h1 style="font-size: 50px;"><b>Steals Of The Day</b></h1></center>
+<br><br><br><br><br>
+
+
+
+<div class="cards-container8">
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792082116638.jpg" alt="Image 1">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792082640926.jpg" alt="Image 2">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792082247710.jpg" alt="Image 3">
+  </div>
+  <div class="card8">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/49792082313246.jpg" alt="Image 4">
+  </div>
+</div>
+
+<!-- dialogue box -->
+
+<div class="container6">
+  <div class="left-side6">
+    <h2><b>SHOP SMART & STAY SAFE</b></h2>
+<br>
+<h3>Trust only Tata CLiQ's official channels for exclusive offers. <br> We DO NOT make telemarketing calls,<br>host lucky draws, send QR codes,<br> or request payments outside our official app or website.<br><br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <br><br><br> <br><br><br> 
+ <p class="redclr"> CLiQ to learn how you can enjoy a secure shopping experience.</p></h3>
+  </div>
+  <div class="right-side6">
+    <img class="dialogue1" src="https://cdn4.iconfinder.com/data/icons/objects-1-3/50/84-512.png" alt="Your Image Description" width="300px" height="300px">
+  </div>
+</div>
+
+<!-- tata trust -->
+
+
+<div class="container3">
+  <div class="logo3">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://www.tatacliq.com/src/general/components/img/trustFrame.png" alt="Logo">
+  </div>
+  <div class="icons3">
+    <i class="icon1"><i class="fa-brands fa-grunt"></i></i>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="icon2"><i class="fa-solid fa-truck-arrow-right"></i></i>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="icon3"><i class="fa-solid fa-money-bill-1-wave"></i></i>
+  </div>
+  <div class="text-area3">
+
+  </div>
+</div>
+
+<!-- footer 1 -->
+
+<footer>
+  <div class="footer-section">
+    <div>
+      <h4>Tata Market Place</h4>
+      <p>About Us</p>
+      <p>Careers</p>
+      <p>Sell With Us</p>
+      <p>Terms of Use</p>
+      <p>Privacy Policy</p>
+      <p>Affiliates</p>
+      <p>Sitemap</p>
+
+    </div>
+    <div>
+      <h4>Customer Service</h4>
+      <p>Shopping</p>
+      <p>Offers & Promotions</p>
+      <p>Payments</p>
+      <p>Cancellation</p>
+      <p>Returns & Refunds</p>
+      <p>Cliq And PiQ</p>
+      <p>Return To Store</p>
+      <p>Electronics Return Policy</p>
+      <p>Contact Us</p>
+      <p>Reviews Guidelines</p>
+      <p>Furniture Return Policy</p>
+      <p>Replacement P</p>
+      
+    </div>
+    <div>
+      <h4>My Tata CLiQ</h4>
+      <p>My Account</p>
+      <p>My Orders</p>
+      <p>My Shopping Bag</p>
+      <p>My Wishlist</p>
+      
+
+    </div>
+    <div>
+      <h4>Tata CLiQ Offerings</h4>
+      <p>Watches for Men  |  Campus Shoes | Sandals for Men | Sneakers for Men |</p>
+      <p>Reebok Shoes | Cotton Kurtis | Woodland Shoes | Jumpsuits | Alien Solly|</p>
+      <p>Sparx Shoes | Gold Rings | Formal Shoes for Men | Sports Shoes for Men|</p>
+      <p>Wallets for Men | Ladies Watches | Trolley Bags | Handbags for Women|</p>
+      <p>Sling Bags for Women | Casual Shoes for Men | Boots for Men | Digital Watches |</p>
+      <p>Sonata Watches | Sneakers for Women | Running Shoes | Puma Shoes |</p>
+      <p>Boots for Women | Skechers | Malabargold | Fabindia | Utsa | Vark | Gia | </p>
+      <p> Lov | Sitemap</p>
+    </div>
+  </div>
+</footer>
+
+<!-- footer 2 -->
+
+
+<div class="paragraph-box2">
+<h3>TATA CLiQ: Shop Online with India's most trusted destination</h3> <br><br>
+<p> Genuine products from all the top brands get delivered right to your doorstep. Our sleek, immersive design allows you to easily navigate between categories and brand stores so that you can find a wide selection of womenswear, menswear, kidswear, footwear, watches, accessories, footwear, watches and accessories online. You can also check our great offers and get the best prices on various products across lifestyle, fashion, and more.</p>
+<br><br>
+<h3> Online Shopping: Fast & convenient with the click of a button</h3><br><br>
+<p>The upside of online shopping at TATA CLiQ online store, is that you'll save on time and most importantly money with TataCliq offers. It's as simple as comparing products and prices online before making the right buy. What's more, you also have the option to pay for your favourite brands and products using our easy EMI options. Of course, you can buy and try - in the convenience of your home. Returns are easy too: We'll pick up your returns for free or you can also drop off the goods at the nearest brand store.
+</p>
+<br><br>
+<h3>Tata CLiQ Shopping App: just a few clicks on Android & iOS</h3><br><br>
+<p>Download the Android app from the Play Store or the iOS app from Apple App Store and get set to enjoy a range of benefits. Apart from the best deals, amazing offers and the latest styles online, the app also gives you the flexibility to shop at your convenience. Use the easy share options to share your shopping with your friends and family to ensure you're buying something perfect. With constant updates and a host of new features being introduced constantly, enjoy a shopping experience that you'll love.</p>
+<br><br>
+<h3>TATA CLiQ: The most genuine place for Fashion and Lifestyle</h3><br><br>
+<p>With an exclusive Brand Store for Westside Online we have most of your trendy shopping needs taken care of. Make TATA CLiQ your online shopping destination and get the best deals on your favourite brands, with 100% genuine products. Be it jewellery or makeup, you can count on TATA CLiQ for receiving only the most authentic products.</p>
+
+</div>
+
+</body>
+</html>
